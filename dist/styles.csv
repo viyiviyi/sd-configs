@@ -1,0 +1,18 @@
+﻿name,prompt,negative_prompt
+None,,
+Default,"masterpiece, best quality","lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry,artist name"
+girl,"colorful, vividcolor, lighting, delicate, beautiful, beautiful face, beautiful eyes, beautiful girl, delicate face, delicate girl,",
+Default quality,"masterpiece, best quality, 8k, finely detailed beautiful eyes, vividcolor, beautiful detailed face, Cinematic light, ray tracing, high resolution illustration, colorful, 8k wallpaper, highres",
+NAiDefault,"masterpiece, best quality","text, lowres, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, bad anatomy, bad hands, error, missing fingers, extra digit, fewer digits, missing arms, long neck, Humpbacked"
+beautiful girl,(an extremely delicate and beautiful girl:1.05),
+人物质量 不影响构图,"8k, finely detailed beautiful eyes, vividcolor, an extremely delicate and beautiful girl, beautiful detailed face",
+画面增强 影响构图,"high resolution illustration, colorful, 8k wallpaper, highres",
+光线增强 影响构图,"Cinematic light, ray tracing",
+高细节 影响构图,"hyper detailed,ultra-detailed",
+负面词扩展,,"artist name, twisted torso, (((fusion), extra, bad, fewer, missing), fist,clenched hand)"
+光线增强模板,"(((masterpiece))), (((best quality))), ((ultra-detailed)), (illustration), (detailed light),((an extremely delicate and beautiful)),dramatic_shadow,ray_tracing",
++质量+细节,"8k wallpaper,(best quality:1.12),(detailed:1.12),(intricate:1.12),(ultra-detailed:1.12),(highres:1.12)",
+水相关正面模板,"(illustration:1.1025),(High resolution:1.05), hignity 8k wallpaper,detailed background,(beautiful detailed water:1.1025),fluttered detailed splashs,(intricate detail:1.1025),(highres:1.05)",
+甘雨,"ganyu_\(genshin_impact\), horns, 1girl, goat_horns, breasts, medium_breasts, bare_shoulders, purple_eyes, open_mouth, gloves, ahoge, blue_hair, xxx2ganyu",
+test,"masterpiece, best quality, 1girl,full body","text, lowres, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, bad anatomy, bad hands, error, missing fingers, extra digit, fewer digits, missing arms, long neck, Humpbacked, artist name, twisted torso"
+1,1,
