@@ -1,12 +1,11 @@
 {
     "txt2img/Prompt/visible": true,
-    "txt2img/Prompt/value": "",
+    "txt2img/Prompt/value": "masterpiece, best quality,\n\n,delicate, beautiful,colorful, vividcolor, lighting,\n",
     "txt2img/Negative prompt/visible": true,
     "txt2img/Negative prompt/value": "",
     "txt2img/Styles/visible": true,
     "txt2img/Styles/value": [
         "Default",
-        "girl"
     ],
     "txt2img/Sampling method/visible": true,
     "txt2img/Sampling method/value": "DPM++ 2M Karras",
