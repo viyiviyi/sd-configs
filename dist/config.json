@@ -62,7 +62,7 @@
     "training_enable_tensorboard": false,
     "training_tensorboard_save_images": false,
     "training_tensorboard_flush_every": 120,
-    "sd_model_checkpoint": "AbyssOrangeMix2_nsfw.safetensors [0873291ac5]",
+    "sd_model_checkpoint": "AbyssOrangeMix2_nsfw.safetensors",
     "sd_checkpoint_cache": 0,
     "sd_vae_checkpoint_cache": 0,
     "sd_vae": "AbyssOrangeMix2_nsfw.vae.pt",
