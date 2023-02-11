@@ -309,8 +309,7 @@
     "img2img/Negative prompt/value": "",
     "img2img/Styles/visible": true,
     "img2img/Styles/value": [
-        "Default",
-        "girl"
+        "Default"
     ],
     "img2img/Input directory/visible": true,
     "img2img/Input directory/value": "",
