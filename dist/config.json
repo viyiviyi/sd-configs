@@ -265,7 +265,7 @@
     "image_browser_mod_ctrl_shift": false,
     "image_browser_enable_maint": true,
     "image_browser_ranking_pnginfo": false,
-    "image_browser_use_thumbnail": true,
+    "image_browser_use_thumbnail": false,
     "image_browser_thumbnail_size": 100.0,
     "state": [],
     "state_txt2img": [],
