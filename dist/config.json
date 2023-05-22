@@ -226,9 +226,7 @@
     "extra_networks_add_text_separator": " ",
     "return_mask": true,
     "return_mask_composite": true,
-    "hidden_tabs": [
-        
-    ],
+    "hidden_tabs": [],
     "uni_pc_variant": "bh1",
     "uni_pc_skip_type": "time_uniform",
     "uni_pc_order": 3,
@@ -251,7 +249,14 @@
     "enable_checker_custom_color_invalid_additional_networks": "#ed9797",
     "image_browser_active_tabs": "txt2img, img2img, txt2img-grids, img2img-grids, Extras, Favorites, Others",
     "image_browser_hidden_components": [
-        "Filename keyword search"
+        "Filename keyword search",
+        "EXIF keyword search",
+        "Ranking Filter",
+        "Aesthestic Score",
+        "Open Folder",
+        "Ranking Bar",
+        "Delete Bar",
+        "Copy to directory"
     ],
     "image_browser_with_subdirs": true,
     "image_browser_copy_image": false,
