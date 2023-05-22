@@ -65,7 +65,7 @@
     "sd_model_checkpoint": "",
     "sd_checkpoint_cache": 0,
     "sd_vae_checkpoint_cache": 0,
-    "sd_vae": "orangemix.vae.pt",
+    "sd_vae": "vae-ft-ema-560000-ema-pruned.safetensors",
     "sd_vae_as_default": true,
     "inpainting_mask_weight": 1.0,
     "initial_noise_multiplier": 1.0,
@@ -227,9 +227,7 @@
     "return_mask": true,
     "return_mask_composite": true,
     "hidden_tabs": [
-        "auto-sd-paint-ext Guide/Panel",
-        "Train",
-        "Extensions"
+        
     ],
     "uni_pc_variant": "bh1",
     "uni_pc_skip_type": "time_uniform",
