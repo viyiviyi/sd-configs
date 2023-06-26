@@ -1,4 +1,4 @@
-﻿name,prompt,negative_prompt
+name,prompt,negative_prompt
 Default,"masterpiece, best quality","lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry,artist name"
 Quality,"masterpiece, best quality","(lowres, worst quality, low quality, normal quality)"
 NAiDefault,"masterpiece, best quality","text, lowres, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, bad anatomy, bad hands, error, missing fingers, extra digit, fewer digits, missing arms, long neck, Humpbacked"
@@ -6,6 +6,7 @@ NAiDefault,"masterpiece, best quality","text, lowres, cropped, worst quality, lo
 精致女孩,an extremely delicate and beautiful girl,
 镜头虚化,"depth of field, blurry background, blurry foreground, ",
 脸部增强,"delicate, beautiful, beautiful face, beautiful eyes, beautiful girl, delicate face, delicate girl,",
+人物美化,,"obese, dark hair, black hair"
 画面增强,"high resolution illustration, colorful, 8k wallpaper, highres",
 光线增强,"Cinematic light, ray tracing",
 细节增强,"hyper detailed,ultra-detailed",
