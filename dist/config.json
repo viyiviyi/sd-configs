@@ -292,7 +292,8 @@
     "tac_keymap": "{\n    \"MoveUp\": \"ArrowUp\",\n    \"MoveDown\": \"ArrowDown\",\n    \"JumpUp\": \"PageUp\",\n    \"JumpDown\": \"PageDown\",\n    \"JumpToStart\": \"Home\",\n    \"JumpToEnd\": \"End\",\n    \"ChooseSelected\": \"Enter\",\n    \"ChooseFirstOrSelected\": \"Tab\",\n    \"Close\": \"Escape\"\n}",
     "tac_colormap": "{\n    \"danbooru\": {\n        \"-1\": [\"red\", \"maroon\"],\n        \"0\": [\"lightblue\", \"dodgerblue\"],\n        \"1\": [\"indianred\", \"firebrick\"],\n        \"3\": [\"violet\", \"darkorchid\"],\n        \"4\": [\"lightgreen\", \"darkgreen\"],\n        \"5\": [\"orange\", \"darkorange\"]\n    },\n    \"e621\": {\n        \"-1\": [\"red\", \"maroon\"],\n        \"0\": [\"lightblue\", \"dodgerblue\"],\n        \"1\": [\"gold\", \"goldenrod\"],\n        \"3\": [\"violet\", \"darkorchid\"],\n        \"4\": [\"lightgreen\", \"darkgreen\"],\n        \"5\": [\"tomato\", \"darksalmon\"],\n        \"6\": [\"red\", \"maroon\"],\n        \"7\": [\"whitesmoke\", \"black\"],\n        \"8\": [\"seagreen\", \"darkseagreen\"]\n    }\n}",
     "quicksettings_list": [
-        "sd_model_checkpoint"
+        "sd_model_checkpoint",
+        "sd_vae"
     ],
     "restore_config_state_file": "",
     "save_init_img": false,
