@@ -62,7 +62,7 @@
     "training_enable_tensorboard": false,
     "training_tensorboard_save_images": false,
     "training_tensorboard_flush_every": 120,
-    "sd_model_checkpoint": "3D/ghostmix_v20Bakedvae.safetensors [e3edb8a26f]",
+    "sd_model_checkpoint": "cache1.safetensors",
     "sd_checkpoint_cache": 0,
     "sd_vae_checkpoint_cache": 0,
     "sd_vae": "vae-ft-ema-560000-ema-pruned.safetensors",
@@ -81,7 +81,7 @@
     "use_old_emphasis_implementation": false,
     "use_old_karras_scheduler_sigmas": false,
     "use_old_hires_fix_width_height": false,
-    "interrogate_keep_models_in_memory": true,
+    "interrogate_keep_models_in_memory": false,
     "interrogate_return_ranks": false,
     "interrogate_clip_num_beams": 1,
     "interrogate_clip_min_length": 24,
@@ -142,7 +142,7 @@
     "eta_noise_seed_delta": 31337,
     "always_discard_next_to_last_sigma": false,
     "disabled_extensions": [],
-    "sd_checkpoint_hash": "e3edb8a26f44dfddc124129004b5ded3378be974b8d3bf82f43b9660d416d3d1",
+    "sd_checkpoint_hash": null,
     "ldsr_steps": 50,
     "ldsr_cached": true,
     "SWIN_tile": 192,
@@ -221,8 +221,8 @@
     "save_mask_composite": false,
     "webp_lossless": false,
     "img_max_size_mp": 200.0,
-    "extra_networks_card_width": 380.0,
-    "extra_networks_card_height": 570.0,
+    "extra_networks_card_width": 256.0,
+    "extra_networks_card_height": 384.0,
     "extra_networks_add_text_separator": " ,",
     "return_mask": true,
     "return_mask_composite": true,
@@ -285,15 +285,18 @@
         "hires_fix",
         "prompt",
         "negative_prompt",
-        "styles"
+        "styles",
+        "sampling"
     ],
-    "state_img2img": [],
+    "state_img2img": [
+        "sampling_steps",
+        "sampling"
+    ],
     "state_extensions": [],
     "tac_keymap": "{\n    \"MoveUp\": \"ArrowUp\",\n    \"MoveDown\": \"ArrowDown\",\n    \"JumpUp\": \"PageUp\",\n    \"JumpDown\": \"PageDown\",\n    \"JumpToStart\": \"Home\",\n    \"JumpToEnd\": \"End\",\n    \"ChooseSelected\": \"Enter\",\n    \"ChooseFirstOrSelected\": \"Tab\",\n    \"Close\": \"Escape\"\n}",
     "tac_colormap": "{\n    \"danbooru\": {\n        \"-1\": [\"red\", \"maroon\"],\n        \"0\": [\"lightblue\", \"dodgerblue\"],\n        \"1\": [\"indianred\", \"firebrick\"],\n        \"3\": [\"violet\", \"darkorchid\"],\n        \"4\": [\"lightgreen\", \"darkgreen\"],\n        \"5\": [\"orange\", \"darkorange\"]\n    },\n    \"e621\": {\n        \"-1\": [\"red\", \"maroon\"],\n        \"0\": [\"lightblue\", \"dodgerblue\"],\n        \"1\": [\"gold\", \"goldenrod\"],\n        \"3\": [\"violet\", \"darkorchid\"],\n        \"4\": [\"lightgreen\", \"darkgreen\"],\n        \"5\": [\"tomato\", \"darksalmon\"],\n        \"6\": [\"red\", \"maroon\"],\n        \"7\": [\"whitesmoke\", \"black\"],\n        \"8\": [\"seagreen\", \"darkseagreen\"]\n    }\n}",
     "quicksettings_list": [
-        "sd_model_checkpoint",
-        "sd_vae"
+        "sd_model_checkpoint"
     ],
     "restore_config_state_file": "",
     "save_init_img": false,
@@ -356,7 +359,7 @@
     "disable_token_counters": false,
     "extra_options": [],
     "extra_options_accordion": false,
-    "infotext_styles": "Apply if any",
+    "infotext_styles": "Ignore",
     "k_sched_type": "Automatic",
     "sigma_min": 0.0,
     "sigma_max": 0.0,
@@ -407,7 +410,7 @@
     "sd_vae_overrides_per_model_preferences": true,
     "save_incomplete_images": false,
     "face_restoration": false,
-    "auto_launch_browser": "Local",
+    "auto_launch_browser": "Disable",
     "show_gradio_deprecation_warnings": true,
     "hide_ldm_prints": true,
     "api_enable_requests": true,
@@ -417,7 +420,7 @@
     "sd_checkpoints_keep_in_cpu": true,
     "tiling": false,
     "hires_fix_refiner_pass": "second pass",
-    "sd_vae_encode_method": "Full",
+    "sd_vae_encode_method": "TAESD",
     "sd_vae_decode_method": "TAESD",
     "img2img_extra_noise": 0,
     "img2img_sketch_default_brush_color": "#ffffff",
@@ -427,10 +430,18 @@
     "batch_cond_uncond": true,
     "use_old_scheduling": false,
     "lora_in_memory_limit": 0,
-    "gradio_themes_cache": true,
-    "gallery_height": "",
-    "extra_options_txt2img": [],
-    "extra_options_img2img": [],
+    "gradio_themes_cache": false,
+    "gallery_height": "min(60vh, 512px)",
+    "extra_options_txt2img": [
+        "sd_vae",
+        "eta_noise_seed_delta",
+        "CLIP_stop_at_last_layers"
+    ],
+    "extra_options_img2img": [
+        "sd_vae",
+        "eta_noise_seed_delta",
+        "CLIP_stop_at_last_layers"
+    ],
     "extra_options_cols": 1,
     "live_preview_allow_lowvram_full": false,
     "live_preview_fast_interrupt": false,
@@ -440,7 +451,9 @@
     "control_net_inpaint_blur_sigma": 7,
     "control_net_no_high_res_fix": false,
     "controlnet_ignore_noninpaint_mask": false,
-    "image_browser_height_auto": false,
+    "image_browser_height_auto": true,
     "tac_sortWildcardResults": true,
-    "tac_showExtraNetworkPreviews": true
+    "tac_showExtraNetworkPreviews": true,
+    "grid_zip_filename_pattern": "",
+    "outdir_init_images": "outputs/init-images"
 }
