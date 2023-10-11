@@ -1,10 +1,10 @@
 {
     "samples_save": true,
-    "samples_format": "jpg",
+    "samples_format": "png",
     "samples_filename_pattern": "[date]-[width].[height]",
     "save_images_add_number": true,
     "grid_save": true,
-    "grid_format": "jpg",
+    "grid_format": "png",
     "grid_extended_filename": false,
     "grid_only_if_multiple": true,
     "grid_prevent_empty_spots": false,
