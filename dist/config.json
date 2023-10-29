@@ -112,7 +112,7 @@
     "ui_extra_networks_tab_reorder": "",
     "localization": "zh_CN",
     "show_progressbar": true,
-    "live_previews_enable": true,
+    "live_previews_enable": false,
     "show_progress_grid": true,
     "show_progress_every_n_steps": 25,
     "show_progress_type": "Approx NN",
