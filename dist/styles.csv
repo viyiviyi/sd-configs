@@ -1,4 +1,4 @@
-﻿name,prompt,negative_prompt
+name,prompt,negative_prompt
 Default,"masterpiece, best quality","lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry,artist name"
 Quality,"(masterpiece, best quality:1),","(lowres, worst quality, low quality, normal quality:1.3),"
 NAiDefault,"masterpiece, best quality","text, lowres, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, bad anatomy, bad hands, error, missing fingers, extra digit, fewer digits, missing arms, long neck, Humpbacked"
@@ -6,7 +6,7 @@ NAiDefault,"masterpiece, best quality","text, lowres, cropped, worst quality, lo
 精致女孩,an extremely delicate and beautiful girl,
 镜头虚化,"depth of field, blurry background, blurry foreground, ",
 脸部增强,"delicate, beautiful, beautiful face, beautiful eyes, beautiful girl, delicate face, delicate girl,",
-人物美化,,"obese, dark hair, black hair, ugly"
+人物美化,,"(obese, dark hair, black hair, ugly:1.15)"
 画面增强,"high resolution illustration, colorful, 8k wallpaper, highres",
 光线增强,"Cinematic light, ray tracing, volumetric lighting, ",
 降噪清晰,,"noise, conjoined, cohered, coalesced, low contrast"
@@ -14,7 +14,7 @@ NAiDefault,"masterpiece, best quality","text, lowres, cropped, worst quality, lo
 负面扩展,,"artist name, twisted torso, (((fusion), extra, bad, fewer, missing), fist,clenched hand)"
 超高细节,"8k wallpaper,(best quality:1.12),(detailed:1.12),(intricate:1.12),(ultra-detailed:1.12),(highres:1.12)",
 放开裙子,,"(grab clothes, grab dress, grab skirt)"
-隐藏手掌,,"lower arms,hands,palms"
+隐藏手掌,"[lower_arms, bad_hands, bad_finger, bad_palms:1.2]","(lower_arms, bad_hands, bad_finger, bad_palms:1.2)"
 完美构图,"perfect anatomy, perfect body, perfect composition","bad anatomy, bad body, bad composition"
 1,1,
 长T恤,"t-shirt, long t-shirt, narrow waist t-shirt, t-shirt over hips, short dress","bare, nafw, sagging breast, crop top"
