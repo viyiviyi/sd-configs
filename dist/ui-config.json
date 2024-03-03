@@ -74,7 +74,7 @@
     "txt2img/Hires steps/maximum": 150,
     "txt2img/Hires steps/step": 1,
     "txt2img/Denoising strength/visible": true,
-    "txt2img/Denoising strength/value": 0.7,
+    "txt2img/Denoising strength/value": 0.5,
     "txt2img/Denoising strength/minimum": 0.0,
     "txt2img/Denoising strength/maximum": 1.0,
     "txt2img/Denoising strength/step": 0.01,
