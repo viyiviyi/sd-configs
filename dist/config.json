@@ -500,7 +500,7 @@
     "queue_grid_page_size": 0,
     "queue_keyboard_shortcut": "Ctrl+KeyE",
     "hypertile_enable_unet": false,
-    "hypertile_enable_unet_secondpass": true,
+    "hypertile_enable_unet_secondpass": false,
     "hypertile_max_depth_unet": 3,
     "hypertile_max_tile_unet": 128,
     "hypertile_swap_size_unet": 3,
