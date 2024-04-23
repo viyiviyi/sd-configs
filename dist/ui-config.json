@@ -1,11 +1,11 @@
 {
     "txt2img/Prompt/visible": true,
-    "txt2img/Prompt/value": "masterpiece, (best quality), 1girl, fox tail, fox ears, ",
+    "txt2img/Prompt/value": "1girl,solo,portrait,realistic,doll makeup,lips,nose,blurry,,double braided hair,air bangs,lace collar,princess dress,pink lace,card issuing,separated lips,color contact lenses,, (masterpiece:1,2), best quality, masterpiece, highres, perfect lighting ,",
     "txt2img/Negative prompt/visible": true,
-    "txt2img/Negative prompt/value": "EasyNegative, bad-hands-5, (worst quality, low quality:1.4), /n 温馨提示：为了避免kaggle封号，在没有开启加密插件的情况下请勿生成涩涩图片。",
+    "txt2img/Negative prompt/value": "ng_deepnegative_v1_75t, (badhandv4:1.2), (worst quality:2), (low quality:2), (normal quality:2), lowres, bad anatomy, bad hands, ((monochrome)), ((grayscale)) watermark,",
     "txt2img/Styles/visible": true,
     "txt2img/Styles/value": [
-        "Default"
+        ""
     ],
     "txt2img/Sampling method/visible": true,
     "txt2img/Sampling method/value": "DPM++ 2M Karras",
