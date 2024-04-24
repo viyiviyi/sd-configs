@@ -2,7 +2,7 @@
     "txt2img/Prompt/visible": true,
     "txt2img/Prompt/value": "1girl,solo,portrait,realistic,doll makeup,lips,nose,blurry,,double braided hair,air bangs,lace collar,princess dress,pink lace,card issuing,separated lips,color contact lenses,, (masterpiece:1,2), best quality, masterpiece, highres, perfect lighting ,",
     "txt2img/Negative prompt/visible": true,
-    "txt2img/Negative prompt/value": "",
+    "txt2img/Negative prompt/value": "paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), missing limb, bad anatomy, extra limbs, ((hands)), ng_deepnegative_v1_75t, badhandv4, blurry, low quality, logo",
     "txt2img/Interrupt/visible": true,
     "txt2img/Skip/visible": true,
     "txt2img/Interrupting.../visible": true,
