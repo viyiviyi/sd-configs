@@ -28,7 +28,7 @@
     "tac_activeIn.thirdParty": true,
     "tac_activeIn.modelList": "",
     "tac_activeIn.modelListMode": "Blacklist",
-    "tac_slidingPopup": true,
+    "tac_slidingPopup": false,
     "tac_maxResults": 5,
     "tac_showAllResults": false,
     "tac_resultStepLength": 100,
@@ -223,7 +223,8 @@
     ],
     "state_img2img": [],
     "state_extensions": [
-        "adetailer"
+        "adetailer",
+        "dynamic prompting"
     ],
     "state_ui": [
         "Reset Button",
@@ -231,7 +232,7 @@
         "Export Button"
     ],
     "encrypt_image_is_enable": "是",
-    "sd_model_checkpoint": "RealisticXL_v10.safetensors",
+    "sd_model_checkpoint": "animagineXLV3_v30.safetensors",
     "sd_checkpoint_hash": null,
     "outdir_samples": "",
     "outdir_txt2img_samples": "outputs/txt2img-images",
@@ -444,16 +445,16 @@
         "eta_noise_seed_delta"
     ],
     "extra_options_cols": 1,
-    "extra_options_accordion": false,
+    "extra_options_accordion": true,
     "compact_prompt_box": false,
     "samplers_in_dropdown": true,
-    "dimensions_and_batch_together": true,
+    "dimensions_and_batch_together": false,
     "sd_checkpoint_dropdown_use_short": false,
     "hires_fix_show_sampler": false,
     "hires_fix_show_prompts": false,
     "txt2img_settings_accordion": false,
     "img2img_settings_accordion": false,
-    "interrupt_after_current": true,
+    "interrupt_after_current": false,
     "localization": "zh_CN",
     "quicksettings_list": [
         "sd_model_checkpoint"
