@@ -360,7 +360,7 @@
     "emphasis": "Original",
     "enable_batch_seeds": true,
     "comma_padding_backtrack": 20,
-    "CLIP_stop_at_last_layers": 1,
+    "CLIP_stop_at_last_layers": 2,
     "upcast_attn": false,
     "randn_source": "GPU",
     "tiling": false,
