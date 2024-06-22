@@ -30,7 +30,7 @@
     "tac_activeIn.modelListMode": "Blacklist",
     "tac_slidingPopup": false,
     "tac_maxResults": 5,
-    "tac_showAllResults": false,
+    "tac_showAllResults": true,
     "tac_resultStepLength": 100,
     "tac_delayTime": 100,
     "tac_useWildcards": true,
