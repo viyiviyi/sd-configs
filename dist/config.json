@@ -219,7 +219,10 @@
         "cfg_scale",
         "hires_upscaler",
         "hires_steps",
-        "hires_scale"
+        "hires_scale",
+        "hires_denoising_strength",
+        "seed",
+        "scheduler"
     ],
     "state_img2img": [],
     "state_extensions": [
@@ -232,7 +235,7 @@
         "Export Button"
     ],
     "encrypt_image_is_enable": "是",
-    "sd_model_checkpoint": "animagineXLV3_v30.safetensors",
+    "sd_model_checkpoint": "firexxxrealisticSDXL_v10.safetensors",
     "sd_checkpoint_hash": null,
     "outdir_samples": "",
     "outdir_txt2img_samples": "outputs/txt2img-images",
@@ -417,11 +420,11 @@
     "live_previews_image_format": "webp",
     "show_progress_grid": true,
     "show_progress_every_n_steps": 10,
-    "show_progress_type": "Approx NN",
+    "show_progress_type": "TAESD",
     "live_preview_allow_lowvram_full": false,
     "live_preview_content": "Prompt",
     "live_preview_refresh_period": 1000.0,
-    "live_preview_fast_interrupt": false,
+    "live_preview_fast_interrupt": true,
     "js_live_preview_in_modal_lightbox": false,
     "keyedit_precision_attention": 0.1,
     "keyedit_precision_extra": 0.05,
@@ -569,5 +572,10 @@
     "deepbooru_sort_alpha": false,
     "deepbooru_use_spaces": true,
     "deepbooru_escape": true,
-    "deepbooru_filter_tags": ""
+    "deepbooru_filter_tags": "",
+    "enable_blocked_prompts": true,
+    "enable_empty_prompts": true,
+    "enable_repetition_prompts": true,
+    "blocked_prompts_txt_file": "/kaggle/sd_main_dir/blocked_prompts.txt",
+    "blocked_negative_prompts_txt_file": "/kaggle/sd_main_dir/blocked_negative_prompts.txt"
 }
