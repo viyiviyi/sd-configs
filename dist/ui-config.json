@@ -1,8 +1,8 @@
 {
     "txt2img/Prompt/visible": true,
-    "txt2img/Prompt/value": "(masterpiece:1.2),best quality,highres,extremely detailed CG,perfect lighting,8k wallpaper,anime,comic,game CG,",
+    "txt2img/Prompt/value": "masterpiece, best quality, (photorealistic:1.5), (realskin:1.5), 1girl, long hair, black hair:1, (closed mouth:1.2), portrait, fashionable makeup and accessories, extremely detailed eyes and face, beautiful and intricate details, HD face,",
     "txt2img/Negative prompt/visible": true,
-    "txt2img/Negative prompt/value": "EasyNegative,bad-hands-5,NSFW,(worst quality:2),(low quality:2),(normal quality:2),lowres,normal quality,((monochrome)),((grayscale)),skin spots,acnes,skin blemishes,age spot,(ugly:1.331),(duplicate:1.331),(morbid:1.21),(mutilated:1.21),(tranny:1.331),mutated hands,(poorly drawn hands:1.5),blurry,(bad anatomy:1.21),(bad proportions:1.331),extra limbs,(disfigured:1.331),(missing arms:1.331),(extra legs:1.331),(fused fingers:1.5),(too many fingers:1.5),(unclear eyes:1.331),lowers,bad hands,missing fingers,extra digit,bad hands,missing fingers,(((extra arms and legs))),",
+    "txt2img/Negative prompt/value": "ng_deepnegative_v1_75t, (badhandv4:1.2), (worst quality:2), (low quality:2), (normal quality:2), lowres, bad anatomy, bad hands, ((monochrome)), ((grayscale)) watermark,",
     "txt2img/Styles/visible": true,
     "txt2img/Styles/value": [
         "Default"
@@ -15,12 +15,12 @@
     "txt2img/Sampling steps/maximum": 555,
     "txt2img/Sampling steps/step": 1,
     "txt2img/Width/visible": true,
-    "txt2img/Width/value": 768,
+    "txt2img/Width/value": 512,
     "txt2img/Width/minimum": 64,
     "txt2img/Width/maximum": 2048,
     "txt2img/Width/step": 8,
     "txt2img/Height/visible": true,
-    "txt2img/Height/value": 512,
+    "txt2img/Height/value": 768,
     "txt2img/Height/minimum": 64,
     "txt2img/Height/maximum": 2048,
     "txt2img/Height/step": 8,
